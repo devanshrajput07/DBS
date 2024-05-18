@@ -29,3 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 });
+function alertMessage() {
+  alert("Form Submitted Successfully!");
+}
