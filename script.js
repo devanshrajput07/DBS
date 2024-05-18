@@ -26,7 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (enteredCaptcha !== displayedCaptcha) {
         alert("Captcha incorrect!");
         event.preventDefault();
-      }else("Form Submitted Successfully!");
+      }else{
+        alert("Form Submitted Successfully!");
+      }
     });
 });
 
