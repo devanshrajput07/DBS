@@ -26,9 +26,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (enteredCaptcha !== displayedCaptcha) {
         alert("Captcha incorrect!");
         event.preventDefault();
-      }else{
-        alert("Form Submitted Successfully!");
+      } else {
+        alert(
+          "REGISTRATION SUCCESSFULLY!  THANK YOU!  OUR TEAM WILL CONTACT YOU SOON!"
+        );
+        alert(
+          "Kindly ignore next error message . You are successfully registered and we will contact you soon!"
+        );
       }
     });
 });
-
